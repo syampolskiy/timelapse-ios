@@ -1,0 +1,898 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20360B161F17930C005A3873 /* CommandSetBrightness.m in Sources */ = {isa = PBXBuildFile; fileRef = 20360B111F17930C005A3873 /* CommandSetBrightness.m */; };
+		20360B171F17930C005A3873 /* CommandSetFps.m in Sources */ = {isa = PBXBuildFile; fileRef = 20360B131F17930C005A3873 /* CommandSetFps.m */; };
+		20360B181F17930C005A3873 /* CommandSetISO.m in Sources */ = {isa = PBXBuildFile; fileRef = 20360B151F17930C005A3873 /* CommandSetISO.m */; };
+		20360B211F179340005A3873 /* BottomBarSection.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B191F179340005A3873 /* BottomBarSection.js */; };
+		20360B221F179340005A3873 /* CameraModeButton.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B1A1F179340005A3873 /* CameraModeButton.js */; };
+		20360B231F179340005A3873 /* Icon.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B1B1F179340005A3873 /* Icon.js */; };
+		20360B241F179340005A3873 /* Index.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B1C1F179340005A3873 /* Index.js */; };
+		20360B251F179340005A3873 /* MainNav.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B1D1F179340005A3873 /* MainNav.js */; };
+		20360B261F179340005A3873 /* StatusIcon.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B1E1F179340005A3873 /* StatusIcon.js */; };
+		20360B271F179340005A3873 /* TextTheme.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B1F1F179340005A3873 /* TextTheme.js */; };
+		20360B281F179340005A3873 /* TopbarSection.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B201F179340005A3873 /* TopbarSection.js */; };
+		20360B2F1F179368005A3873 /* NavButton.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B2B1F179368005A3873 /* NavButton.js */; };
+		20360B301F179368005A3873 /* SettingsNav.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B2C1F179368005A3873 /* SettingsNav.js */; };
+		20360B311F179368005A3873 /* SettingsSubNav.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B2D1F179368005A3873 /* SettingsSubNav.js */; };
+		20360B321F179368005A3873 /* SubNavButton.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B2E1F179368005A3873 /* SubNavButton.js */; };
+		20360B351F179374005A3873 /* DialogButton.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B331F179374005A3873 /* DialogButton.js */; };
+		20360B361F179374005A3873 /* DialogModal.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B341F179374005A3873 /* DialogModal.js */; };
+		20360B3B1F17939F005A3873 /* NavSlider.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B381F17939F005A3873 /* NavSlider.js */; };
+		20360B3C1F17939F005A3873 /* ScrollMenu.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B391F17939F005A3873 /* ScrollMenu.js */; };
+		20360B3D1F17939F005A3873 /* StatusBar.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B3A1F17939F005A3873 /* StatusBar.js */; };
+		20360B5C1F18A96B005A3873 /* SimpleVideo.js in Resources */ = {isa = PBXBuildFile; fileRef = 20360B5B1F18A96B005A3873 /* SimpleVideo.js */; };
+		20360B5F1F1C98C8005A3873 /* CommandGetWritingTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 20360B5E1F1C98C8005A3873 /* CommandGetWritingTime.m */; };
+		20539C891F0E423E00A29971 /* CommandGetCamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 20539C881F0E423E00A29971 /* CommandGetCamState.m */; };
+		20539C8C1F0FAF9B00A29971 /* CommandOneShotPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 20539C8B1F0FAF9B00A29971 /* CommandOneShotPhoto.m */; };
+		2056F3CC1EEEA6FC00B7F1BF /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 2056F3C91EEEA6FC00B7F1BF /* Result.m */; };
+		2056F3CD1EEEA6FC00B7F1BF /* Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2056F3CA1EEEA6FC00B7F1BF /* Socket.m */; };
+		2056F3CE1EEEA6FC00B7F1BF /* TCPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2056F3CB1EEEA6FC00B7F1BF /* TCPClient.m */; };
+		2056F3D11EEEA72B00B7F1BF /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 2056F3D01EEEA72B00B7F1BF /* ytcpsocket.c */; };
+		2056F3D31EEEB28600B7F1BF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2056F3D21EEEB28600B7F1BF /* Settings.bundle */; };
+		2056F3DC1EEEDBCF00B7F1BF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2056F3DB1EEEDBCF00B7F1BF /* Constants.m */; };
+		205FEE271F1CF7E800B5435A /* CommandGetRemainWritingTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 205FEE261F1CF7E800B5435A /* CommandGetRemainWritingTime.m */; };
+		2063EBB41EF01847003B5A05 /* CloseState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063EBAF1EF01847003B5A05 /* CloseState.m */; };
+		2063EBB51EF01847003B5A05 /* ConnectState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063EBB01EF01847003B5A05 /* ConnectState.m */; };
+		2063EBB61EF01847003B5A05 /* PullState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063EBB11EF01847003B5A05 /* PullState.m */; };
+		2063EBB71EF01847003B5A05 /* SendState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063EBB21EF01847003B5A05 /* SendState.m */; };
+		2063EBB81EF01847003B5A05 /* SocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063EBB31EF01847003B5A05 /* SocketConnection.m */; };
+		2063EBC21EF025CC003B5A05 /* CommandWritingStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063EBC01EF025CC003B5A05 /* CommandWritingStart.m */; };
+		2063EBC31EF025CC003B5A05 /* CommandWritingStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063EBC11EF025CC003B5A05 /* CommandWritingStop.m */; };
+		20643F591EEEA15D00C8490E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20643F581EEEA15D00C8490E /* main.m */; };
+		20643F5C1EEEA15D00C8490E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20643F5B1EEEA15D00C8490E /* AppDelegate.m */; };
+		20643F5F1EEEA15D00C8490E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20643F5E1EEEA15D00C8490E /* ViewController.m */; };
+		20643F621EEEA15D00C8490E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20643F601EEEA15D00C8490E /* Main.storyboard */; };
+		20643F641EEEA15D00C8490E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20643F631EEEA15D00C8490E /* Assets.xcassets */; };
+		20643F671EEEA15D00C8490E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20643F651EEEA15D00C8490E /* LaunchScreen.storyboard */; };
+		206BAC501F2741B800E165C3 /* CAMViewComponent.js in Resources */ = {isa = PBXBuildFile; fileRef = 206BAC4C1F2741B800E165C3 /* CAMViewComponent.js */; };
+		206BAC511F2741B800E165C3 /* PANViewComponent.js in Resources */ = {isa = PBXBuildFile; fileRef = 206BAC4D1F2741B800E165C3 /* PANViewComponent.js */; };
+		206BAC521F2741B800E165C3 /* TWDViewComponent.js in Resources */ = {isa = PBXBuildFile; fileRef = 206BAC4E1F2741B800E165C3 /* TWDViewComponent.js */; };
+		206BAC531F2741B800E165C3 /* VRViewComponent.js in Resources */ = {isa = PBXBuildFile; fileRef = 206BAC4F1F2741B800E165C3 /* VRViewComponent.js */; };
+		206BAC581F27787100E165C3 /* CommandGetCamStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BAC551F27787100E165C3 /* CommandGetCamStatus.m */; };
+		206BAC591F27787100E165C3 /* CommandSetCamStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BAC571F27787100E165C3 /* CommandSetCamStatus.m */; };
+		206BAC5C1F2B429700E165C3 /* CommandGetCamStatusError.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BAC5B1F2B429700E165C3 /* CommandGetCamStatusError.m */; };
+		206BAC671F34BAD700E165C3 /* PanoramaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BAC601F34BAD700E165C3 /* PanoramaManager.m */; };
+		206BAC681F34BAD700E165C3 /* PanoramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BAC621F34BAD700E165C3 /* PanoramaView.m */; };
+		206BAC691F34BAD700E165C3 /* VideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BAC641F34BAD700E165C3 /* VideoManager.m */; };
+		206BAC6A1F34BAD700E165C3 /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BAC661F34BAD700E165C3 /* VideoView.m */; };
+		206BAC6D1F38624800E165C3 /* CommandSetExposure.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BAC6C1F38624800E165C3 /* CommandSetExposure.m */; };
+		206BAC721F39FD4000E165C3 /* CommandSetShutter.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BAC711F39FD4000E165C3 /* CommandSetShutter.m */; };
+		206BAC751F3B1F3A00E165C3 /* CommandGetCamState0.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BAC741F3B1F3A00E165C3 /* CommandGetCamState0.m */; };
+		206BAC781F3B460100E165C3 /* CommandSetWB.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BAC771F3B460100E165C3 /* CommandSetWB.m */; };
+		207F605D1EF9060B004DA19D /* CamAppBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 207F605C1EF9060B004DA19D /* CamAppBridge.m */; };
+		207F605F1EF911AA004DA19D /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 207F605E1EF911AA004DA19D /* index.ios.js */; };
+		207F606D1EFA7CD0004DA19D /* ApplicationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 207F606C1EFA7CD0004DA19D /* ApplicationData.m */; };
+		207F60741EFBA725004DA19D /* SidebarSection.js in Resources */ = {isa = PBXBuildFile; fileRef = 207F60711EFBA725004DA19D /* SidebarSection.js */; };
+		208B4C531F419889004B2996 /* CommandSetContrast.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B4C4E1F419889004B2996 /* CommandSetContrast.m */; };
+		208B4C541F419889004B2996 /* CommandSetSaturation.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B4C501F419889004B2996 /* CommandSetSaturation.m */; };
+		208B4C551F419889004B2996 /* CommandSetSharpness.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B4C521F419889004B2996 /* CommandSetSharpness.m */; };
+		208B4C581F430990004B2996 /* CommandSetResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B4C571F430990004B2996 /* CommandSetResolution.m */; };
+		208B4C5B1F44595A004B2996 /* CommandGetFootageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B4C5A1F44595A004B2996 /* CommandGetFootageList.m */; };
+		20DDF6591F20A39700B396CF /* CommandGetVStreamURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DDF6581F20A39700B396CF /* CommandGetVStreamURL.m */; };
+		20FBA18F1F3D97B2009CA961 /* CommandSetBPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FBA18E1F3D97B2009CA961 /* CommandSetBPP.m */; };
+		E975784CAFDF5D5B71813784 /* libPods-camera_app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 376BC67E787BB8DB1CC80A1B /* libPods-camera_app.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1548E720B25DF74361D89444 /* Pods-camera_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camera_app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-camera_app/Pods-camera_app.debug.xcconfig"; sourceTree = "<group>"; };
+		189468C83DE39B00E5409643 /* Pods-camera_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camera_app.release.xcconfig"; path = "Pods/Target Support Files/Pods-camera_app/Pods-camera_app.release.xcconfig"; sourceTree = "<group>"; };
+		20360B101F17930C005A3873 /* CommandSetBrightness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandSetBrightness.h; path = camera_app/SocketComponent/Commands/CommandSetBrightness.h; sourceTree = "<group>"; };
+		20360B111F17930C005A3873 /* CommandSetBrightness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandSetBrightness.m; path = camera_app/SocketComponent/Commands/CommandSetBrightness.m; sourceTree = "<group>"; };
+		20360B121F17930C005A3873 /* CommandSetFps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandSetFps.h; path = camera_app/SocketComponent/Commands/CommandSetFps.h; sourceTree = "<group>"; };
+		20360B131F17930C005A3873 /* CommandSetFps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandSetFps.m; path = camera_app/SocketComponent/Commands/CommandSetFps.m; sourceTree = "<group>"; };
+		20360B141F17930C005A3873 /* CommandSetISO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandSetISO.h; path = camera_app/SocketComponent/Commands/CommandSetISO.h; sourceTree = "<group>"; };
+		20360B151F17930C005A3873 /* CommandSetISO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandSetISO.m; path = camera_app/SocketComponent/Commands/CommandSetISO.m; sourceTree = "<group>"; };
+		20360B191F179340005A3873 /* BottomBarSection.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BottomBarSection.js; sourceTree = "<group>"; };
+		20360B1A1F179340005A3873 /* CameraModeButton.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CameraModeButton.js; sourceTree = "<group>"; };
+		20360B1B1F179340005A3873 /* Icon.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Icon.js; sourceTree = "<group>"; };
+		20360B1C1F179340005A3873 /* Index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Index.js; sourceTree = "<group>"; };
+		20360B1D1F179340005A3873 /* MainNav.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MainNav.js; sourceTree = "<group>"; };
+		20360B1E1F179340005A3873 /* StatusIcon.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = StatusIcon.js; sourceTree = "<group>"; };
+		20360B1F1F179340005A3873 /* TextTheme.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TextTheme.js; sourceTree = "<group>"; };
+		20360B201F179340005A3873 /* TopbarSection.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TopbarSection.js; sourceTree = "<group>"; };
+		20360B2B1F179368005A3873 /* NavButton.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = NavButton.js; path = "settings-nav/NavButton.js"; sourceTree = "<group>"; };
+		20360B2C1F179368005A3873 /* SettingsNav.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = SettingsNav.js; path = "settings-nav/SettingsNav.js"; sourceTree = "<group>"; };
+		20360B2D1F179368005A3873 /* SettingsSubNav.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = SettingsSubNav.js; path = "settings-nav/SettingsSubNav.js"; sourceTree = "<group>"; };
+		20360B2E1F179368005A3873 /* SubNavButton.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = SubNavButton.js; path = "settings-nav/SubNavButton.js"; sourceTree = "<group>"; };
+		20360B331F179374005A3873 /* DialogButton.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = DialogButton.js; path = "dialog-modal/DialogButton.js"; sourceTree = "<group>"; };
+		20360B341F179374005A3873 /* DialogModal.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = DialogModal.js; path = "dialog-modal/DialogModal.js"; sourceTree = "<group>"; };
+		20360B381F17939F005A3873 /* NavSlider.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = NavSlider.js; path = ../src/containers/NavSlider.js; sourceTree = "<group>"; };
+		20360B391F17939F005A3873 /* ScrollMenu.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ScrollMenu.js; path = ../src/containers/ScrollMenu.js; sourceTree = "<group>"; };
+		20360B3A1F17939F005A3873 /* StatusBar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = StatusBar.js; path = ../src/containers/StatusBar.js; sourceTree = "<group>"; };
+		20360B5B1F18A96B005A3873 /* SimpleVideo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = SimpleVideo.js; path = player/SimpleVideo.js; sourceTree = "<group>"; };
+		20360B5D1F1C98C8005A3873 /* CommandGetWritingTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandGetWritingTime.h; path = camera_app/SocketComponent/Commands/CommandGetWritingTime.h; sourceTree = "<group>"; };
+		20360B5E1F1C98C8005A3873 /* CommandGetWritingTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandGetWritingTime.m; path = camera_app/SocketComponent/Commands/CommandGetWritingTime.m; sourceTree = "<group>"; };
+		20539C871F0E423E00A29971 /* CommandGetCamState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandGetCamState.h; path = camera_app/SocketComponent/Commands/CommandGetCamState.h; sourceTree = "<group>"; };
+		20539C881F0E423E00A29971 /* CommandGetCamState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandGetCamState.m; path = camera_app/SocketComponent/Commands/CommandGetCamState.m; sourceTree = "<group>"; };
+		20539C8A1F0FAF9B00A29971 /* CommandOneShotPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandOneShotPhoto.h; path = camera_app/SocketComponent/Commands/CommandOneShotPhoto.h; sourceTree = "<group>"; };
+		20539C8B1F0FAF9B00A29971 /* CommandOneShotPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandOneShotPhoto.m; path = camera_app/SocketComponent/Commands/CommandOneShotPhoto.m; sourceTree = "<group>"; };
+		2056F3C91EEEA6FC00B7F1BF /* Result.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Result.m; path = camera_app/SocketComponent/Result.m; sourceTree = "<group>"; };
+		2056F3CA1EEEA6FC00B7F1BF /* Socket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Socket.m; path = camera_app/SocketComponent/Socket.m; sourceTree = "<group>"; };
+		2056F3CB1EEEA6FC00B7F1BF /* TCPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TCPClient.m; path = camera_app/SocketComponent/TCPClient.m; sourceTree = "<group>"; };
+		2056F3D01EEEA72B00B7F1BF /* ytcpsocket.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ytcpsocket.c; path = camera_app/SocketComponent/c_sources/ytcpsocket.c; sourceTree = "<group>"; };
+		2056F3D21EEEB28600B7F1BF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		2056F3D41EEECB2B00B7F1BF /* TCPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCPClient.h; path = camera_app/SocketComponent/TCPClient.h; sourceTree = "<group>"; };
+		2056F3D51EEECB4200B7F1BF /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Socket.h; path = camera_app/SocketComponent/Socket.h; sourceTree = "<group>"; };
+		2056F3DB1EEEDBCF00B7F1BF /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = Constants/Constants.m; sourceTree = "<group>"; };
+		2056F3DD1EEEDBDB00B7F1BF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Constants/Constants.h; sourceTree = "<group>"; };
+		2056F3DE1EEEE6CF00B7F1BF /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Result.h; path = camera_app/SocketComponent/Result.h; sourceTree = "<group>"; };
+		205FEE251F1CF7E800B5435A /* CommandGetRemainWritingTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandGetRemainWritingTime.h; path = camera_app/SocketComponent/Commands/CommandGetRemainWritingTime.h; sourceTree = "<group>"; };
+		205FEE261F1CF7E800B5435A /* CommandGetRemainWritingTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandGetRemainWritingTime.m; path = camera_app/SocketComponent/Commands/CommandGetRemainWritingTime.m; sourceTree = "<group>"; };
+		2063EBAF1EF01847003B5A05 /* CloseState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CloseState.m; path = camera_app/SocketComponent/State/CloseState.m; sourceTree = "<group>"; };
+		2063EBB01EF01847003B5A05 /* ConnectState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ConnectState.m; path = camera_app/SocketComponent/State/ConnectState.m; sourceTree = "<group>"; };
+		2063EBB11EF01847003B5A05 /* PullState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PullState.m; path = camera_app/SocketComponent/State/PullState.m; sourceTree = "<group>"; };
+		2063EBB21EF01847003B5A05 /* SendState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SendState.m; path = camera_app/SocketComponent/State/SendState.m; sourceTree = "<group>"; };
+		2063EBB31EF01847003B5A05 /* SocketConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SocketConnection.m; path = camera_app/SocketComponent/State/SocketConnection.m; sourceTree = "<group>"; };
+		2063EBB91EF0186B003B5A05 /* CloseState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CloseState.h; path = camera_app/SocketComponent/State/CloseState.h; sourceTree = "<group>"; };
+		2063EBBA1EF0186B003B5A05 /* ConnectState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectState.h; path = camera_app/SocketComponent/State/ConnectState.h; sourceTree = "<group>"; };
+		2063EBBB1EF0186B003B5A05 /* PullState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PullState.h; path = camera_app/SocketComponent/State/PullState.h; sourceTree = "<group>"; };
+		2063EBBC1EF0186B003B5A05 /* SendState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SendState.h; path = camera_app/SocketComponent/State/SendState.h; sourceTree = "<group>"; };
+		2063EBBD1EF0186B003B5A05 /* SocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketConnection.h; path = camera_app/SocketComponent/State/SocketConnection.h; sourceTree = "<group>"; };
+		2063EBBE1EF0186B003B5A05 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = State.h; path = camera_app/SocketComponent/State/State.h; sourceTree = "<group>"; };
+		2063EBC01EF025CC003B5A05 /* CommandWritingStart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CommandWritingStart.m; path = camera_app/SocketComponent/Commands/CommandWritingStart.m; sourceTree = "<group>"; };
+		2063EBC11EF025CC003B5A05 /* CommandWritingStop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CommandWritingStop.m; path = camera_app/SocketComponent/Commands/CommandWritingStop.m; sourceTree = "<group>"; };
+		2063EBC41EF025E2003B5A05 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Command.h; path = camera_app/SocketComponent/Commands/Command.h; sourceTree = "<group>"; };
+		2063EBC51EF025E2003B5A05 /* CommandWritingStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandWritingStart.h; path = camera_app/SocketComponent/Commands/CommandWritingStart.h; sourceTree = "<group>"; };
+		2063EBC61EF025E2003B5A05 /* CommandWritingStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandWritingStop.h; path = camera_app/SocketComponent/Commands/CommandWritingStop.h; sourceTree = "<group>"; };
+		20643F541EEEA15D00C8490E /* camera_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camera_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20643F581EEEA15D00C8490E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20643F5A1EEEA15D00C8490E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20643F5B1EEEA15D00C8490E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20643F5D1EEEA15D00C8490E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20643F5E1EEEA15D00C8490E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20643F611EEEA15D00C8490E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20643F631EEEA15D00C8490E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20643F661EEEA15D00C8490E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20643F681EEEA15D00C8490E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206BAC4C1F2741B800E165C3 /* CAMViewComponent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = CAMViewComponent.js; path = views/CAMViewComponent.js; sourceTree = "<group>"; };
+		206BAC4D1F2741B800E165C3 /* PANViewComponent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = PANViewComponent.js; path = views/PANViewComponent.js; sourceTree = "<group>"; };
+		206BAC4E1F2741B800E165C3 /* TWDViewComponent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = TWDViewComponent.js; path = views/TWDViewComponent.js; sourceTree = "<group>"; };
+		206BAC4F1F2741B800E165C3 /* VRViewComponent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = VRViewComponent.js; path = views/VRViewComponent.js; sourceTree = "<group>"; };
+		206BAC541F27787100E165C3 /* CommandGetCamStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandGetCamStatus.h; path = camera_app/SocketComponent/Commands/CommandGetCamStatus.h; sourceTree = "<group>"; };
+		206BAC551F27787100E165C3 /* CommandGetCamStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandGetCamStatus.m; path = camera_app/SocketComponent/Commands/CommandGetCamStatus.m; sourceTree = "<group>"; };
+		206BAC561F27787100E165C3 /* CommandSetCamStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandSetCamStatus.h; path = camera_app/SocketComponent/Commands/CommandSetCamStatus.h; sourceTree = "<group>"; };
+		206BAC571F27787100E165C3 /* CommandSetCamStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandSetCamStatus.m; path = camera_app/SocketComponent/Commands/CommandSetCamStatus.m; sourceTree = "<group>"; };
+		206BAC5A1F2B429700E165C3 /* CommandGetCamStatusError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandGetCamStatusError.h; path = camera_app/SocketComponent/Commands/CommandGetCamStatusError.h; sourceTree = "<group>"; };
+		206BAC5B1F2B429700E165C3 /* CommandGetCamStatusError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandGetCamStatusError.m; path = camera_app/SocketComponent/Commands/CommandGetCamStatusError.m; sourceTree = "<group>"; };
+		206BAC5F1F34BAD700E165C3 /* PanoramaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaManager.h; sourceTree = "<group>"; };
+		206BAC601F34BAD700E165C3 /* PanoramaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaManager.m; sourceTree = "<group>"; };
+		206BAC611F34BAD700E165C3 /* PanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaView.h; sourceTree = "<group>"; };
+		206BAC621F34BAD700E165C3 /* PanoramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaView.m; sourceTree = "<group>"; };
+		206BAC631F34BAD700E165C3 /* VideoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoManager.h; sourceTree = "<group>"; };
+		206BAC641F34BAD700E165C3 /* VideoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoManager.m; sourceTree = "<group>"; };
+		206BAC651F34BAD700E165C3 /* VideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		206BAC661F34BAD700E165C3 /* VideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
+		206BAC6B1F38624800E165C3 /* CommandSetExposure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandSetExposure.h; path = camera_app/SocketComponent/Commands/CommandSetExposure.h; sourceTree = "<group>"; };
+		206BAC6C1F38624800E165C3 /* CommandSetExposure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandSetExposure.m; path = camera_app/SocketComponent/Commands/CommandSetExposure.m; sourceTree = "<group>"; };
+		206BAC701F39FD4000E165C3 /* CommandSetShutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandSetShutter.h; path = camera_app/SocketComponent/Commands/CommandSetShutter.h; sourceTree = "<group>"; };
+		206BAC711F39FD4000E165C3 /* CommandSetShutter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandSetShutter.m; path = camera_app/SocketComponent/Commands/CommandSetShutter.m; sourceTree = "<group>"; };
+		206BAC731F3B1F3A00E165C3 /* CommandGetCamState0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandGetCamState0.h; path = camera_app/SocketComponent/Commands/CommandGetCamState0.h; sourceTree = "<group>"; };
+		206BAC741F3B1F3A00E165C3 /* CommandGetCamState0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandGetCamState0.m; path = camera_app/SocketComponent/Commands/CommandGetCamState0.m; sourceTree = "<group>"; };
+		206BAC761F3B460100E165C3 /* CommandSetWB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandSetWB.h; path = camera_app/SocketComponent/Commands/CommandSetWB.h; sourceTree = "<group>"; };
+		206BAC771F3B460100E165C3 /* CommandSetWB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandSetWB.m; path = camera_app/SocketComponent/Commands/CommandSetWB.m; sourceTree = "<group>"; };
+		207F605B1EF9060B004DA19D /* CamAppBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamAppBridge.h; sourceTree = "<group>"; };
+		207F605C1EF9060B004DA19D /* CamAppBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CamAppBridge.m; sourceTree = "<group>"; };
+		207F605E1EF911AA004DA19D /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.ios.js; path = ../index.ios.js; sourceTree = "<group>"; };
+		207F606B1EFA7CD0004DA19D /* ApplicationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationData.h; sourceTree = "<group>"; };
+		207F606C1EFA7CD0004DA19D /* ApplicationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationData.m; sourceTree = "<group>"; };
+		207F60711EFBA725004DA19D /* SidebarSection.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SidebarSection.js; sourceTree = "<group>"; };
+		208B4C4D1F419889004B2996 /* CommandSetContrast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandSetContrast.h; path = camera_app/SocketComponent/Commands/CommandSetContrast.h; sourceTree = "<group>"; };
+		208B4C4E1F419889004B2996 /* CommandSetContrast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandSetContrast.m; path = camera_app/SocketComponent/Commands/CommandSetContrast.m; sourceTree = "<group>"; };
+		208B4C4F1F419889004B2996 /* CommandSetSaturation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandSetSaturation.h; path = camera_app/SocketComponent/Commands/CommandSetSaturation.h; sourceTree = "<group>"; };
+		208B4C501F419889004B2996 /* CommandSetSaturation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandSetSaturation.m; path = camera_app/SocketComponent/Commands/CommandSetSaturation.m; sourceTree = "<group>"; };
+		208B4C511F419889004B2996 /* CommandSetSharpness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandSetSharpness.h; path = camera_app/SocketComponent/Commands/CommandSetSharpness.h; sourceTree = "<group>"; };
+		208B4C521F419889004B2996 /* CommandSetSharpness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandSetSharpness.m; path = camera_app/SocketComponent/Commands/CommandSetSharpness.m; sourceTree = "<group>"; };
+		208B4C561F430990004B2996 /* CommandSetResolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandSetResolution.h; path = camera_app/SocketComponent/Commands/CommandSetResolution.h; sourceTree = "<group>"; };
+		208B4C571F430990004B2996 /* CommandSetResolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandSetResolution.m; path = camera_app/SocketComponent/Commands/CommandSetResolution.m; sourceTree = "<group>"; };
+		208B4C591F44595A004B2996 /* CommandGetFootageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandGetFootageList.h; path = camera_app/SocketComponent/Commands/CommandGetFootageList.h; sourceTree = "<group>"; };
+		208B4C5A1F44595A004B2996 /* CommandGetFootageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandGetFootageList.m; path = camera_app/SocketComponent/Commands/CommandGetFootageList.m; sourceTree = "<group>"; };
+		20DDF6571F20A39700B396CF /* CommandGetVStreamURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandGetVStreamURL.h; path = camera_app/SocketComponent/Commands/CommandGetVStreamURL.h; sourceTree = "<group>"; };
+		20DDF6581F20A39700B396CF /* CommandGetVStreamURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandGetVStreamURL.m; path = camera_app/SocketComponent/Commands/CommandGetVStreamURL.m; sourceTree = "<group>"; };
+		20FBA18D1F3D97B2009CA961 /* CommandSetBPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandSetBPP.h; path = camera_app/SocketComponent/Commands/CommandSetBPP.h; sourceTree = "<group>"; };
+		20FBA18E1F3D97B2009CA961 /* CommandSetBPP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandSetBPP.m; path = camera_app/SocketComponent/Commands/CommandSetBPP.m; sourceTree = "<group>"; };
+		376BC67E787BB8DB1CC80A1B /* libPods-camera_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-camera_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20643F511EEEA15D00C8490E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E975784CAFDF5D5B71813784 /* libPods-camera_app.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20360B291F179344005A3873 /* dialog-modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "dialog-modal";
+			sourceTree = "<group>";
+		};
+		20360B2A1F17934F005A3873 /* settings-nav */ = {
+			isa = PBXGroup;
+			children = (
+				20360B2B1F179368005A3873 /* NavButton.js */,
+				20360B331F179374005A3873 /* DialogButton.js */,
+				20360B341F179374005A3873 /* DialogModal.js */,
+				20360B2C1F179368005A3873 /* SettingsNav.js */,
+				20360B2D1F179368005A3873 /* SettingsSubNav.js */,
+				20360B2E1F179368005A3873 /* SubNavButton.js */,
+			);
+			name = "settings-nav";
+			sourceTree = "<group>";
+		};
+		20360B371F179384005A3873 /* containers */ = {
+			isa = PBXGroup;
+			children = (
+				20360B381F17939F005A3873 /* NavSlider.js */,
+				20360B391F17939F005A3873 /* ScrollMenu.js */,
+				20360B3A1F17939F005A3873 /* StatusBar.js */,
+			);
+			name = containers;
+			sourceTree = "<group>";
+		};
+		20360B5A1F18A95A005A3873 /* player */ = {
+			isa = PBXGroup;
+			children = (
+				20360B5B1F18A96B005A3873 /* SimpleVideo.js */,
+			);
+			name = player;
+			sourceTree = "<group>";
+		};
+		2056F3CF1EEEA70B00B7F1BF /* SocketComponent */ = {
+			isa = PBXGroup;
+			children = (
+				2063EBBF1EF025B5003B5A05 /* Commands */,
+				2063EBAE1EF017F9003B5A05 /* State */,
+				2056F3DE1EEEE6CF00B7F1BF /* Result.h */,
+				2056F3D51EEECB4200B7F1BF /* Socket.h */,
+				2056F3D41EEECB2B00B7F1BF /* TCPClient.h */,
+				2056F3D01EEEA72B00B7F1BF /* ytcpsocket.c */,
+				2056F3C91EEEA6FC00B7F1BF /* Result.m */,
+				2056F3CA1EEEA6FC00B7F1BF /* Socket.m */,
+				2056F3CB1EEEA6FC00B7F1BF /* TCPClient.m */,
+			);
+			name = SocketComponent;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2056F3DA1EEEDBB300B7F1BF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2056F3DD1EEEDBDB00B7F1BF /* Constants.h */,
+				2056F3DB1EEEDBCF00B7F1BF /* Constants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		2063EBAE1EF017F9003B5A05 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				2063EBB91EF0186B003B5A05 /* CloseState.h */,
+				2063EBBA1EF0186B003B5A05 /* ConnectState.h */,
+				2063EBBB1EF0186B003B5A05 /* PullState.h */,
+				2063EBBC1EF0186B003B5A05 /* SendState.h */,
+				2063EBBD1EF0186B003B5A05 /* SocketConnection.h */,
+				2063EBBE1EF0186B003B5A05 /* State.h */,
+				2063EBAF1EF01847003B5A05 /* CloseState.m */,
+				2063EBB01EF01847003B5A05 /* ConnectState.m */,
+				2063EBB11EF01847003B5A05 /* PullState.m */,
+				2063EBB21EF01847003B5A05 /* SendState.m */,
+				2063EBB31EF01847003B5A05 /* SocketConnection.m */,
+			);
+			name = State;
+			sourceTree = "<group>";
+		};
+		2063EBBF1EF025B5003B5A05 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				206BAC6F1F39A19800E165C3 /* CommandGet */,
+				206BAC6E1F39A18800E165C3 /* CommandSet */,
+				20539C8A1F0FAF9B00A29971 /* CommandOneShotPhoto.h */,
+				20539C8B1F0FAF9B00A29971 /* CommandOneShotPhoto.m */,
+				2063EBC41EF025E2003B5A05 /* Command.h */,
+				2063EBC51EF025E2003B5A05 /* CommandWritingStart.h */,
+				2063EBC61EF025E2003B5A05 /* CommandWritingStop.h */,
+				2063EBC01EF025CC003B5A05 /* CommandWritingStart.m */,
+				2063EBC11EF025CC003B5A05 /* CommandWritingStop.m */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+		20643F4B1EEEA15D00C8490E = {
+			isa = PBXGroup;
+			children = (
+				206BAC5E1F34BAD700E165C3 /* RNGoogleVR */,
+				20643F561EEEA15D00C8490E /* camera_app */,
+				20643F551EEEA15D00C8490E /* Products */,
+				3392DCE63A8F844F46B3E1E0 /* Pods */,
+				DEF3ABAEECE23557C565B0BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20643F551EEEA15D00C8490E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20643F541EEEA15D00C8490E /* camera_app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20643F561EEEA15D00C8490E /* camera_app */ = {
+			isa = PBXGroup;
+			children = (
+				207F606A1EFA7CA9004DA19D /* ApplicationData */,
+				207F60681EF9554E004DA19D /* JS */,
+				2056F3DA1EEEDBB300B7F1BF /* Constants */,
+				2056F3CF1EEEA70B00B7F1BF /* SocketComponent */,
+				20643F5A1EEEA15D00C8490E /* AppDelegate.h */,
+				20643F5B1EEEA15D00C8490E /* AppDelegate.m */,
+				20643F5D1EEEA15D00C8490E /* ViewController.h */,
+				20643F5E1EEEA15D00C8490E /* ViewController.m */,
+				20643F601EEEA15D00C8490E /* Main.storyboard */,
+				20643F631EEEA15D00C8490E /* Assets.xcassets */,
+				20643F651EEEA15D00C8490E /* LaunchScreen.storyboard */,
+				20643F681EEEA15D00C8490E /* Info.plist */,
+				20643F571EEEA15D00C8490E /* Supporting Files */,
+				2056F3D21EEEB28600B7F1BF /* Settings.bundle */,
+				207F605B1EF9060B004DA19D /* CamAppBridge.h */,
+				207F605C1EF9060B004DA19D /* CamAppBridge.m */,
+			);
+			path = camera_app;
+			sourceTree = "<group>";
+		};
+		20643F571EEEA15D00C8490E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20643F581EEEA15D00C8490E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		206BAC4B1F27418D00E165C3 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				206BAC4C1F2741B800E165C3 /* CAMViewComponent.js */,
+				206BAC4D1F2741B800E165C3 /* PANViewComponent.js */,
+				206BAC4E1F2741B800E165C3 /* TWDViewComponent.js */,
+				206BAC4F1F2741B800E165C3 /* VRViewComponent.js */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		206BAC5E1F34BAD700E165C3 /* RNGoogleVR */ = {
+			isa = PBXGroup;
+			children = (
+				206BAC5F1F34BAD700E165C3 /* PanoramaManager.h */,
+				206BAC601F34BAD700E165C3 /* PanoramaManager.m */,
+				206BAC611F34BAD700E165C3 /* PanoramaView.h */,
+				206BAC621F34BAD700E165C3 /* PanoramaView.m */,
+				206BAC631F34BAD700E165C3 /* VideoManager.h */,
+				206BAC641F34BAD700E165C3 /* VideoManager.m */,
+				206BAC651F34BAD700E165C3 /* VideoView.h */,
+				206BAC661F34BAD700E165C3 /* VideoView.m */,
+			);
+			path = RNGoogleVR;
+			sourceTree = "<group>";
+		};
+		206BAC6E1F39A18800E165C3 /* CommandSet */ = {
+			isa = PBXGroup;
+			children = (
+				208B4C561F430990004B2996 /* CommandSetResolution.h */,
+				208B4C571F430990004B2996 /* CommandSetResolution.m */,
+				208B4C4D1F419889004B2996 /* CommandSetContrast.h */,
+				208B4C4E1F419889004B2996 /* CommandSetContrast.m */,
+				208B4C4F1F419889004B2996 /* CommandSetSaturation.h */,
+				208B4C501F419889004B2996 /* CommandSetSaturation.m */,
+				208B4C511F419889004B2996 /* CommandSetSharpness.h */,
+				208B4C521F419889004B2996 /* CommandSetSharpness.m */,
+				20FBA18D1F3D97B2009CA961 /* CommandSetBPP.h */,
+				20FBA18E1F3D97B2009CA961 /* CommandSetBPP.m */,
+				206BAC761F3B460100E165C3 /* CommandSetWB.h */,
+				206BAC771F3B460100E165C3 /* CommandSetWB.m */,
+				206BAC701F39FD4000E165C3 /* CommandSetShutter.h */,
+				206BAC711F39FD4000E165C3 /* CommandSetShutter.m */,
+				206BAC6B1F38624800E165C3 /* CommandSetExposure.h */,
+				206BAC6C1F38624800E165C3 /* CommandSetExposure.m */,
+				206BAC561F27787100E165C3 /* CommandSetCamStatus.h */,
+				206BAC571F27787100E165C3 /* CommandSetCamStatus.m */,
+				20360B101F17930C005A3873 /* CommandSetBrightness.h */,
+				20360B111F17930C005A3873 /* CommandSetBrightness.m */,
+				20360B121F17930C005A3873 /* CommandSetFps.h */,
+				20360B131F17930C005A3873 /* CommandSetFps.m */,
+				20360B141F17930C005A3873 /* CommandSetISO.h */,
+				20360B151F17930C005A3873 /* CommandSetISO.m */,
+			);
+			name = CommandSet;
+			sourceTree = "<group>";
+		};
+		206BAC6F1F39A19800E165C3 /* CommandGet */ = {
+			isa = PBXGroup;
+			children = (
+				208B4C591F44595A004B2996 /* CommandGetFootageList.h */,
+				208B4C5A1F44595A004B2996 /* CommandGetFootageList.m */,
+				206BAC731F3B1F3A00E165C3 /* CommandGetCamState0.h */,
+				206BAC741F3B1F3A00E165C3 /* CommandGetCamState0.m */,
+				206BAC5A1F2B429700E165C3 /* CommandGetCamStatusError.h */,
+				206BAC5B1F2B429700E165C3 /* CommandGetCamStatusError.m */,
+				206BAC541F27787100E165C3 /* CommandGetCamStatus.h */,
+				206BAC551F27787100E165C3 /* CommandGetCamStatus.m */,
+				20DDF6571F20A39700B396CF /* CommandGetVStreamURL.h */,
+				20DDF6581F20A39700B396CF /* CommandGetVStreamURL.m */,
+				205FEE251F1CF7E800B5435A /* CommandGetRemainWritingTime.h */,
+				205FEE261F1CF7E800B5435A /* CommandGetRemainWritingTime.m */,
+				20360B5D1F1C98C8005A3873 /* CommandGetWritingTime.h */,
+				20360B5E1F1C98C8005A3873 /* CommandGetWritingTime.m */,
+				20539C871F0E423E00A29971 /* CommandGetCamState.h */,
+				20539C881F0E423E00A29971 /* CommandGetCamState.m */,
+			);
+			name = CommandGet;
+			sourceTree = "<group>";
+		};
+		207F60681EF9554E004DA19D /* JS */ = {
+			isa = PBXGroup;
+			children = (
+				207F60691EF95559004DA19D /* src */,
+				207F605E1EF911AA004DA19D /* index.ios.js */,
+			);
+			name = JS;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		207F60691EF95559004DA19D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				20360B371F179384005A3873 /* containers */,
+				207F606E1EFBA725004DA19D /* components */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		207F606A1EFA7CA9004DA19D /* ApplicationData */ = {
+			isa = PBXGroup;
+			children = (
+				207F606B1EFA7CD0004DA19D /* ApplicationData.h */,
+				207F606C1EFA7CD0004DA19D /* ApplicationData.m */,
+			);
+			name = ApplicationData;
+			sourceTree = "<group>";
+		};
+		207F606E1EFBA725004DA19D /* components */ = {
+			isa = PBXGroup;
+			children = (
+				206BAC4B1F27418D00E165C3 /* views */,
+				20360B5A1F18A95A005A3873 /* player */,
+				20360B2A1F17934F005A3873 /* settings-nav */,
+				20360B291F179344005A3873 /* dialog-modal */,
+				20360B191F179340005A3873 /* BottomBarSection.js */,
+				20360B1A1F179340005A3873 /* CameraModeButton.js */,
+				20360B1B1F179340005A3873 /* Icon.js */,
+				20360B1C1F179340005A3873 /* Index.js */,
+				20360B1D1F179340005A3873 /* MainNav.js */,
+				20360B1E1F179340005A3873 /* StatusIcon.js */,
+				20360B1F1F179340005A3873 /* TextTheme.js */,
+				20360B201F179340005A3873 /* TopbarSection.js */,
+				207F60711EFBA725004DA19D /* SidebarSection.js */,
+			);
+			name = components;
+			path = ../src/components;
+			sourceTree = "<group>";
+		};
+		3392DCE63A8F844F46B3E1E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1548E720B25DF74361D89444 /* Pods-camera_app.debug.xcconfig */,
+				189468C83DE39B00E5409643 /* Pods-camera_app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEF3ABAEECE23557C565B0BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				376BC67E787BB8DB1CC80A1B /* libPods-camera_app.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20643F531EEEA15D00C8490E /* camera_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20643F6B1EEEA15D00C8490E /* Build configuration list for PBXNativeTarget "camera_app" */;
+			buildPhases = (
+				748AA0844C683159B3BD1FEF /* [CP] Check Pods Manifest.lock */,
+				20643F501EEEA15D00C8490E /* Sources */,
+				20643F511EEEA15D00C8490E /* Frameworks */,
+				20643F521EEEA15D00C8490E /* Resources */,
+				207F605A1EF42DE2004DA19D /* Copy React Native Bundle */,
+				754DD73BBBD2E0EBB063CF5B /* [CP] Embed Pods Frameworks */,
+				9E8446A2B708F402FC734199 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = camera_app;
+			productName = camera_app;
+			productReference = 20643F541EEEA15D00C8490E /* camera_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20643F4C1EEEA15D00C8490E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jazzros;
+				TargetAttributes = {
+					20643F531EEEA15D00C8490E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 20643F4F1EEEA15D00C8490E /* Build configuration list for PBXProject "camera_app" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20643F4B1EEEA15D00C8490E;
+			productRefGroup = 20643F551EEEA15D00C8490E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20643F531EEEA15D00C8490E /* camera_app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20643F521EEEA15D00C8490E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20360B3C1F17939F005A3873 /* ScrollMenu.js in Resources */,
+				20360B3D1F17939F005A3873 /* StatusBar.js in Resources */,
+				20360B5C1F18A96B005A3873 /* SimpleVideo.js in Resources */,
+				20360B231F179340005A3873 /* Icon.js in Resources */,
+				20360B261F179340005A3873 /* StatusIcon.js in Resources */,
+				20360B3B1F17939F005A3873 /* NavSlider.js in Resources */,
+				20360B241F179340005A3873 /* Index.js in Resources */,
+				206BAC531F2741B800E165C3 /* VRViewComponent.js in Resources */,
+				20360B271F179340005A3873 /* TextTheme.js in Resources */,
+				20360B221F179340005A3873 /* CameraModeButton.js in Resources */,
+				20643F671EEEA15D00C8490E /* LaunchScreen.storyboard in Resources */,
+				20360B211F179340005A3873 /* BottomBarSection.js in Resources */,
+				20360B321F179368005A3873 /* SubNavButton.js in Resources */,
+				207F60741EFBA725004DA19D /* SidebarSection.js in Resources */,
+				20643F641EEEA15D00C8490E /* Assets.xcassets in Resources */,
+				20360B361F179374005A3873 /* DialogModal.js in Resources */,
+				20360B351F179374005A3873 /* DialogButton.js in Resources */,
+				20360B251F179340005A3873 /* MainNav.js in Resources */,
+				20360B311F179368005A3873 /* SettingsSubNav.js in Resources */,
+				2056F3D31EEEB28600B7F1BF /* Settings.bundle in Resources */,
+				206BAC521F2741B800E165C3 /* TWDViewComponent.js in Resources */,
+				20643F621EEEA15D00C8490E /* Main.storyboard in Resources */,
+				20360B281F179340005A3873 /* TopbarSection.js in Resources */,
+				206BAC511F2741B800E165C3 /* PANViewComponent.js in Resources */,
+				20360B2F1F179368005A3873 /* NavButton.js in Resources */,
+				207F605F1EF911AA004DA19D /* index.ios.js in Resources */,
+				206BAC501F2741B800E165C3 /* CAMViewComponent.js in Resources */,
+				20360B301F179368005A3873 /* SettingsNav.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		207F605A1EF42DE2004DA19D /* Copy React Native Bundle */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy React Native Bundle";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		748AA0844C683159B3BD1FEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-camera_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		754DD73BBBD2E0EBB063CF5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-camera_app/Pods-camera_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E8446A2B708F402FC734199 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-camera_app/Pods-camera_app-resources.sh",
+				"${PODS_ROOT}/GVRSDK/Base/Resources/CardboardSDK.bundle",
+				"${PODS_ROOT}/GVRSDK/Base/Resources/GoogleKitCore.bundle",
+				"${PODS_ROOT}/GVRSDK/Base/Resources/GoogleKitDialogs.bundle",
+				"${PODS_ROOT}/GVRSDK/Base/Resources/GoogleKitHUD.bundle",
+				"${PODS_ROOT}/GVRSDK/Base/Resources/MaterialRobotoFontLoader.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-camera_app/Pods-camera_app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20643F501EEEA15D00C8490E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20539C891F0E423E00A29971 /* CommandGetCamState.m in Sources */,
+				206BAC781F3B460100E165C3 /* CommandSetWB.m in Sources */,
+				208B4C551F419889004B2996 /* CommandSetSharpness.m in Sources */,
+				20539C8C1F0FAF9B00A29971 /* CommandOneShotPhoto.m in Sources */,
+				2063EBC21EF025CC003B5A05 /* CommandWritingStart.m in Sources */,
+				206BAC681F34BAD700E165C3 /* PanoramaView.m in Sources */,
+				2063EBC31EF025CC003B5A05 /* CommandWritingStop.m in Sources */,
+				2063EBB41EF01847003B5A05 /* CloseState.m in Sources */,
+				20DDF6591F20A39700B396CF /* CommandGetVStreamURL.m in Sources */,
+				20360B161F17930C005A3873 /* CommandSetBrightness.m in Sources */,
+				206BAC6D1F38624800E165C3 /* CommandSetExposure.m in Sources */,
+				2063EBB51EF01847003B5A05 /* ConnectState.m in Sources */,
+				2063EBB61EF01847003B5A05 /* PullState.m in Sources */,
+				206BAC671F34BAD700E165C3 /* PanoramaManager.m in Sources */,
+				2063EBB71EF01847003B5A05 /* SendState.m in Sources */,
+				208B4C531F419889004B2996 /* CommandSetContrast.m in Sources */,
+				206BAC581F27787100E165C3 /* CommandGetCamStatus.m in Sources */,
+				206BAC721F39FD4000E165C3 /* CommandSetShutter.m in Sources */,
+				208B4C5B1F44595A004B2996 /* CommandGetFootageList.m in Sources */,
+				20360B171F17930C005A3873 /* CommandSetFps.m in Sources */,
+				2063EBB81EF01847003B5A05 /* SocketConnection.m in Sources */,
+				2056F3DC1EEEDBCF00B7F1BF /* Constants.m in Sources */,
+				20360B181F17930C005A3873 /* CommandSetISO.m in Sources */,
+				208B4C581F430990004B2996 /* CommandSetResolution.m in Sources */,
+				208B4C541F419889004B2996 /* CommandSetSaturation.m in Sources */,
+				207F605D1EF9060B004DA19D /* CamAppBridge.m in Sources */,
+				2056F3D11EEEA72B00B7F1BF /* ytcpsocket.c in Sources */,
+				2056F3CC1EEEA6FC00B7F1BF /* Result.m in Sources */,
+				2056F3CD1EEEA6FC00B7F1BF /* Socket.m in Sources */,
+				206BAC691F34BAD700E165C3 /* VideoManager.m in Sources */,
+				206BAC5C1F2B429700E165C3 /* CommandGetCamStatusError.m in Sources */,
+				2056F3CE1EEEA6FC00B7F1BF /* TCPClient.m in Sources */,
+				206BAC6A1F34BAD700E165C3 /* VideoView.m in Sources */,
+				206BAC751F3B1F3A00E165C3 /* CommandGetCamState0.m in Sources */,
+				206BAC591F27787100E165C3 /* CommandSetCamStatus.m in Sources */,
+				20643F5F1EEEA15D00C8490E /* ViewController.m in Sources */,
+				20643F5C1EEEA15D00C8490E /* AppDelegate.m in Sources */,
+				207F606D1EFA7CD0004DA19D /* ApplicationData.m in Sources */,
+				20FBA18F1F3D97B2009CA961 /* CommandSetBPP.m in Sources */,
+				20643F591EEEA15D00C8490E /* main.m in Sources */,
+				205FEE271F1CF7E800B5435A /* CommandGetRemainWritingTime.m in Sources */,
+				20360B5F1F1C98C8005A3873 /* CommandGetWritingTime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20643F601EEEA15D00C8490E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20643F611EEEA15D00C8490E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20643F651EEEA15D00C8490E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20643F661EEEA15D00C8490E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20643F691EEEA15D00C8490E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20643F6A1EEEA15D00C8490E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20643F6C1EEEA15D00C8490E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1548E720B25DF74361D89444 /* Pods-camera_app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A88V4HCNZV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = camera_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jazzros.camera-app1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20643F6D1EEEA15D00C8490E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 189468C83DE39B00E5409643 /* Pods-camera_app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A88V4HCNZV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = camera_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jazzros.camera-app1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20643F4F1EEEA15D00C8490E /* Build configuration list for PBXProject "camera_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20643F691EEEA15D00C8490E /* Debug */,
+				20643F6A1EEEA15D00C8490E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20643F6B1EEEA15D00C8490E /* Build configuration list for PBXNativeTarget "camera_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20643F6C1EEEA15D00C8490E /* Debug */,
+				20643F6D1EEEA15D00C8490E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20643F4C1EEEA15D00C8490E /* Project object */;
+}

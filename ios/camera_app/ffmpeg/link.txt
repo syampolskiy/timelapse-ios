@@ -1,0 +1,3 @@
+Source link of the prebuild the latest ffmpeg static libs with headers
+
+https://downloads.sourceforge.net/project/ffmpeg-ios

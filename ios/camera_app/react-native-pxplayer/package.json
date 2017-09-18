@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-pxplayer@0.1.8",
+        "scope": null,
+        "escapedName": "react-native-pxplayer",
+        "name": "react-native-pxplayer",
+        "rawSpec": "0.1.8",
+        "spec": "0.1.8",
+        "type": "version"
+      },
+      "/Volumes/Disk1/Projects/R7-Surround360/gitlab/surround360/source/camera_app"
+    ]
+  ],
+  "_from": "react-native-pxplayer@0.1.8",
+  "_id": "react-native-pxplayer@0.1.8",
+  "_inCache": true,
+  "_location": "/react-native-pxplayer",
+  "_nodeVersion": "4.1.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/react-native-pxplayer-0.1.8.tgz_1468484004841_0.38809160026721656"
+  },
+  "_npmUser": {
+    "name": "xiongchuan86",
+    "email": "xiongchuan86@vip.qq.com"
+  },
+  "_npmVersion": "3.7.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-pxplayer@0.1.8",
+    "scope": null,
+    "escapedName": "react-native-pxplayer",
+    "name": "react-native-pxplayer",
+    "rawSpec": "0.1.8",
+    "spec": "0.1.8",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-pxplayer/-/react-native-pxplayer-0.1.8.tgz",
+  "_shasum": "10ced7004c66ef10d2b611316868889c70f93885",
+  "_shrinkwrap": null,
+  "_spec": "react-native-pxplayer@0.1.8",
+  "_where": "/Volumes/Disk1/Projects/R7-Surround360/gitlab/surround360/source/camera_app",
+  "author": {
+    "name": "xiongchuan",
+    "email": "xiongchuan86@vip.qq.com"
+  },
+  "bugs": {
+    "url": "https://github.com/xiongchuan86/react-native-pxplayer/issues"
+  },
+  "dependencies": {},
+  "description": "A <PxPlayer /> element for react-native,a rtsp player",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "10ced7004c66ef10d2b611316868889c70f93885",
+    "tarball": "https://registry.npmjs.org/react-native-pxplayer/-/react-native-pxplayer-0.1.8.tgz"
+  },
+  "gitHead": "db5924b50724c0f81b491e84e626e4fc6bca8fb7",
+  "homepage": "https://github.com/xiongchuan86/react-native-pxplayer",
+  "keywords": [
+    "pxplayer",
+    "video",
+    "player",
+    "rtsp"
+  ],
+  "license": "MIT",
+  "main": "PxPlayer.js",
+  "maintainers": [
+    {
+      "name": "xiongchuan86",
+      "email": "xiongchuan86@vip.qq.com"
+    }
+  ],
+  "name": "react-native-pxplayer",
+  "optionalDependencies": {},
+  "readme": "# react-native-rtspplayer\n\nA `<RtspPlayer>` component for react-native  \nusing ffmpeg,convert yuv to rgb for uiimage\n\n\n![播放器例子](1.png)\n\n### Add it to your project\n\nRun `npm install react-native-rtspplayer --save`\n\n#### iOS\n\n- Install [rnpm](https://github.com/rnpm/rnpm) and run `rnpm link react-native-rtspplayer`\n\n\n## Usage\n\n\n```\n<RtspPlayer\n        ref='player'\n        paused={this.state.paused}\n        style={[styles.vlcplayer,this.state.customStyle]}\n        source={{uri:this.props.uri,useTcp:true,width:playerDefaultWidth,height:210}}\n         />\n \n```\n\n\n## Static Methods\n\n\n`snapshot(path)`\n\n```\nthis.refs['rtspplayer'].snapshot(path); //保存截图\n```\n\n## Examples\n\n- `npm install`   \n- `rnpm link`  \n- 同时需要安装`ART`   \n参考https://github.com/oblador/react-native-vector-icons\n\n可以根据自己的情况使用下面的例子，自己DIY播放器  \n- `<SimpleVideo />` 一个简单的播放器  \n\n\n## TODOS\n\n- [ ] Add support for Android\n- [x] Add support for snapshot\n\n\n\n## 加入ReactNative讨论组  \n  \n###`QQ群：316434159`  ###\n![扫描加入][1]\n\n[1]:ReactNative_qq_group.png\n\n---\n\n**MIT Licensed**\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiongchuan86/react-native-pxplayer.git"
+  },
+  "scripts": {},
+  "version": "0.1.8"
+}
