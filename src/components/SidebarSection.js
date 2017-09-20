@@ -4,6 +4,7 @@ import Icon from './Icon';
 import TextTheme from './TextTheme';
 import EStyleSheet from 'react-native-extended-stylesheet';
 import Switch from 'react-native-customisable-switch';
+import TimelapseButton from './TimelapseButton';
 
 class SidebarSection extends Component {
   constructor(props) {
@@ -44,10 +45,7 @@ class SidebarSection extends Component {
         </View>
 
         <View style={styles.buttonContainerStyles}>
-          <TouchableOpacity
-            onPress={this.props.pickButton.bind(this, 'startStopWriting')}
-            style={[styles.buttonStyles, { padding: 5, backgroundColor: this.props.startStopWriting ? '#E62B08' : '#FFF' }]}
-          />
+          <TimelapseButton seconds={3} functionToSendSignal={'timeIsOver'} sidebarProps={this.props}/>
         </View>
 
         <TouchableOpacity onPress={this.props.toggleScrollMenu} style={styles.buttonPlayStyles}>
@@ -63,6 +61,19 @@ class SidebarSection extends Component {
 }
 
 const styles = EStyleSheet.create({
+  containerTmlps:{
+    backgroundColor: 'rgba(28, 42, 57, .7)',
+  },
+  containerForPressingBtn:{
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  buttonTmlpsStyles: {
+    width: 50,
+    height: 50,
+    borderRadius: 50,
+    position: 'absolute'
+  },
   container: {
     width: '11.56%',
     backgroundColor: 'rgba(28, 42, 57, .7)',
